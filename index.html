@@ -3,155 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SocialShield | Social Media Safety & Digital Footprint</title>
+  <meta name="description" content="SocialShield: learn social media safety, digital footprint awareness, privacy, and safer online habits.">
+  <meta name="theme-color" content="#071226">
+  <title>SocialShield | Social Media Safety & Digital Footprint Awareness</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="navbar">
-  <a class="logo" href="#home"><span>◈</span> SocialShield</a>
-  <button class="menu" aria-label="Open menu">☰</button>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#safety">Safety</a>
-    <a href="#footprint">Digital Footprint</a>
-    <a href="#risks">Risks</a>
-    <a href="#survey">Survey</a>
-    <a href="#quiz">Quiz</a>
-  </nav>
-</header>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SocialShield home"><span class="brand-mark">⬡</span><span>Social<span class="gradient-text">Shield</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav" class="nav-links">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#tools">Safety Tools</a>
+      <a href="#survey">Survey</a><a href="#quiz">Quiz</a><a href="#tips">Tips</a>
+    </nav>
+    <a class="header-cta" href="#checklist">✦ Stay Safe Online</a>
+  </header>
 
-<main>
-<section id="home" class="hero">
-  <div class="hero-content">
-    <p class="eyebrow">DIGITAL AWARENESS PROJECT</p>
-    <h1>Be smart.<br><span>Stay safe online.</span></h1>
-    <p class="hero-text">Learn how to protect your social media accounts, manage your digital footprint, and make safer choices online.</p>
-    <div class="hero-buttons">
-      <a class="btn primary" href="#safety">Explore Safety Tips →</a>
-      <a class="btn secondary" href="#quiz">Take the Quiz</a>
-    </div>
-  </div>
-  <div class="hero-visual">
-    <div class="orb"></div>
-    <div class="phone">
-      <div class="phone-top"></div>
-      <div class="profile"></div>
-      <div class="line long"></div><div class="line short"></div>
-      <div class="post"></div>
-      <div class="shield">✓</div>
-    </div>
-    <div class="float-card card-one">🔒 <b>Privacy</b><small>Protected</small></div>
-    <div class="float-card card-two">👣 <b>Digital Footprint</b><small>Think before you post</small></div>
-  </div>
-</section>
-
-<section class="stats">
-  <div><strong>01</strong><span>Protect your account</span></div>
-  <div><strong>02</strong><span>Control what you share</span></div>
-  <div><strong>03</strong><span>Think before you post</span></div>
-  <div><strong>04</strong><span>Build a positive footprint</span></div>
-</section>
-
-<section id="safety" class="section">
-  <div class="section-heading">
-    <p class="eyebrow">01 — SOCIAL MEDIA SAFETY</p>
-    <h2>Small habits make a <span>big difference.</span></h2>
-    <p>Social media can be useful and fun, but safe digital habits help protect your identity, privacy, and accounts.</p>
-  </div>
-  <div class="card-grid">
-    <article class="info-card"><div class="icon">🔐</div><h3>Strong passwords</h3><p>Use long, unique passwords for important accounts. Avoid obvious information such as your name or birthday.</p></article>
-    <article class="info-card"><div class="icon">🛡️</div><h3>Enable 2FA</h3><p>Two-factor authentication adds another layer of protection if someone learns your password.</p></article>
-    <article class="info-card"><div class="icon">⚙️</div><h3>Check privacy settings</h3><p>Review who can see your posts, contact you, tag you, or access information connected to your account.</p></article>
-    <article class="info-card"><div class="icon">🔗</div><h3>Think before clicking</h3><p>Be cautious with unexpected links, urgent messages, giveaways, and requests for passwords or codes.</p></article>
-  </div>
-</section>
-
-<section id="footprint" class="section tinted">
-  <div class="split">
-    <div>
-      <p class="eyebrow">02 — DIGITAL FOOTPRINT</p>
-      <h2>Your online actions can leave a <span>lasting trail.</span></h2>
-      <p>A digital footprint is the record of information and activity connected to your online presence. It can include things you intentionally share and data collected through your online activity.</p>
-      <div class="footprint-types">
-        <div><b>Active footprint</b><span>Posts, comments, likes, photos, videos and profiles you intentionally create.</span></div>
-        <div><b>Passive footprint</b><span>Information generated through browsing, app activity, cookies and other online interactions.</span></div>
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">SOCIAL MEDIA SAFETY &amp; DIGITAL FOOTPRINT AWARENESS</p>
+        <h1>Think Before You Share.<br>Your <span class="gradient-text">Digital Footprint</span> Lasts.</h1>
+        <p class="hero-lede">SocialShield helps you stay safe, smart and aware in the digital world. Learn. Explore. Make better choices.</p>
+        <div class="hero-actions"><a class="btn primary" href="#tools">♢ Explore Safety Tools <span>→</span></a><a class="btn secondary" href="#about">Learn More</a></div>
+        <div class="hero-proof"><span class="proof-dot"></span> Small habits. Stronger digital safety.</div>
       </div>
-    </div>
-    <div class="footprint-art">
-      <div class="footprint-circle">👣</div>
-      <div class="trail">POST → SHARE → COMMENT → LIKE → REMEMBER</div>
-    </div>
-  </div>
-</section>
+      <div class="hero-art" aria-label="Digital shield and lock illustration" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-icon insta">◎</div><div class="floating-icon video">▷</div><div class="floating-icon chat">•••</div><div class="floating-icon music">♫</div>
+        <div class="shield"><div class="shield-inner">🔒</div></div>
+        <div class="art-note">Same you.<br>Bigger audience.<br><b>Longer memory.</b></div>
+        <div class="art-caption">YOUR ONLINE LIFE, PROTECTED</div>
+      </div>
+    </section>
 
-<section id="risks" class="section">
-  <div class="section-heading">
-    <p class="eyebrow">03 — COMMON RISKS</p>
-    <h2>Know the risks. <span>Spot them early.</span></h2>
-  </div>
-  <div class="risk-grid">
-    <div class="risk"><span>01</span><h3>Phishing & scams</h3><p>Fake messages may try to make you reveal passwords, codes or personal information.</p></div>
-    <div class="risk"><span>02</span><h3>Fake profiles</h3><p>Impersonation accounts can be used to deceive people or build trust for harmful purposes.</p></div>
-    <div class="risk"><span>03</span><h3>Oversharing</h3><p>Publicly sharing your location, school, phone number or routines can create privacy risks.</p></div>
-    <div class="risk"><span>04</span><h3>Cyberbullying</h3><p>Harmful online behavior can affect wellbeing. Save evidence, block and report when appropriate.</p></div>
-    <div class="risk"><span>05</span><h3>Account hacking</h3><p>Weak or reused passwords can make accounts easier to compromise.</p></div>
-    <div class="risk"><span>06</span><h3>Reputation risks</h3><p>Posts can be copied or shared. Consider how something may look later before publishing it.</p></div>
-  </div>
-</section>
+    <section class="section-wrap intro-strip" id="about">
+      <p class="eyebrow centered">WHAT CAN YOU DO HERE?</p>
+      <h2 class="section-heading centered">Explore. Learn. <span class="gradient-text">Stay Safe.</span></h2>
+      <p class="section-sub centered">A student-friendly guide to protecting your privacy and building a responsible digital presence.</p>
+    </section>
 
-<section class="section checklist">
-  <div class="section-heading">
-    <p class="eyebrow">04 — SAFETY CHECKLIST</p>
-    <h2>Before you <span>post or click.</span></h2>
-  </div>
-  <div class="checklist-box">
-    <label><input type="checkbox"> Is this information safe to share publicly?</label>
-    <label><input type="checkbox"> Do I trust the account or person sending this?</label>
-    <label><input type="checkbox"> Have I checked the link or website address?</label>
-    <label><input type="checkbox"> Would I be comfortable if this post were seen later?</label>
-    <label><input type="checkbox"> Are my password and security settings up to date?</label>
-  </div>
-</section>
+    <section class="section-wrap feature-grid" id="tools">
+      <a class="feature-card blue" href="#tips"><div class="feature-icon">⬡</div><h3>Safety Tips</h3><p>Simple, practical habits to protect your privacy and stay safer online.</p><span class="round-arrow">→</span></a>
+      <a class="feature-card purple" href="#footprint"><div class="feature-icon">◉</div><h3>Digital Footprint</h3><p>Understand what you leave behind and how it can affect your future.</p><span class="round-arrow">→</span></a>
+      <a class="feature-card cyan" href="#survey"><div class="feature-icon">▥</div><h3>Survey Insights</h3><p>Explore an illustrative sample of student awareness and online habits.</p><span class="round-arrow">→</span></a>
+      <a class="feature-card orange" href="#quiz"><div class="feature-icon">?</div><h3>Interactive Quiz</h3><p>Test your knowledge and learn safer choices as you go.</p><span class="round-arrow">→</span></a>
+      <a class="feature-card violet" href="#checklist"><div class="feature-icon">☷</div><h3>Safety Checklist</h3><p>Review key steps that can make your accounts more secure.</p><span class="round-arrow">→</span></a>
+    </section>
 
-<section id="survey" class="section tinted">
-  <div class="section-heading">
-    <p class="eyebrow">05 — AWARENESS SURVEY</p>
-    <h2>What did students <span>say?</span></h2>
-    <p>Sample survey results for a college awareness project. Replace these values with your actual survey data.</p>
-  </div>
-  <div class="survey-wrap">
-    <div class="chart">
-      <div class="pie" aria-label="Sample survey pie chart"></div>
-      <div class="legend"><span><i class="dot a"></i> Aware — 72%</span><span><i class="dot b"></i> Partly aware — 20%</span><span><i class="dot c"></i> Not aware — 8%</span></div>
-    </div>
-    <div class="survey-findings">
-      <div class="finding"><strong>72%</strong><span>reported being aware of digital footprint risks.</span></div>
-      <div class="finding"><strong>64%</strong><span>said they check privacy settings regularly.</span></div>
-      <div class="finding"><strong>81%</strong><span>agreed that people should think before posting.</span></div>
-    </div>
-  </div>
-</section>
+    <section class="section-wrap impact-panel" id="footprint">
+      <div class="impact-visual"><div class="glow-lock">♙<span>▣</span></div><div class="mini-lock lock-a">🔒</div><div class="mini-lock lock-b">✦</div><div class="mini-lock lock-c">▤</div></div>
+      <div class="impact-copy"><p class="eyebrow">A SAFER INTERNET STARTS WITH YOU</p><h2>Small Choices. <span class="gradient-text">Big Impact.</span></h2><p>Your online actions shape your digital footprint. Make informed choices, protect your privacy and help create a safer online environment—for yourself and others.</p></div>
+      <div class="impact-points"><div><span>🛡️</span><p><b>Be Aware</b><small>Know the risks</small></p></div><div><span>👥</span><p><b>Be Smart</b><small>Make safer choices</small></p></div><div><span>⭐</span><p><b>Be the Change</b><small>Spread awareness</small></p></div></div>
+    </section>
 
-<section id="quiz" class="section quiz-section">
-  <div class="section-heading">
-    <p class="eyebrow">06 — TEST YOUR AWARENESS</p>
-    <h2>How safe are your <span>online habits?</span></h2>
-  </div>
-  <div class="quiz" id="quizBox"></div>
-</section>
+    <section class="content-section" id="tips">
+      <div class="section-wrap">
+        <p class="eyebrow centered">BUILD BETTER ONLINE HABITS</p><h2 class="section-heading centered">Your everyday <span class="gradient-text">safety toolkit</span></h2>
+        <div class="tips-grid">
+          <article class="tip-card"><span class="tip-number">01</span><h3>Use strong passwords</h3><p>Use long, unique passwords for different accounts. Consider a reputable password manager.</p></article>
+          <article class="tip-card"><span class="tip-number">02</span><h3>Turn on 2-step verification</h3><p>Where available, enable multi-factor authentication to add another layer of account protection.</p></article>
+          <article class="tip-card"><span class="tip-number">03</span><h3>Review privacy settings</h3><p>Check who can see your posts, contact you, tag you, and view personal details.</p></article>
+          <article class="tip-card"><span class="tip-number">04</span><h3>Pause before you post</h3><p>Avoid sharing passwords, live location, identity documents, or private information publicly.</p></article>
+          <article class="tip-card"><span class="tip-number">05</span><h3>Check links and messages</h3><p>Be cautious of urgent messages, suspicious links, unexpected attachments, and giveaway scams.</p></article>
+          <article class="tip-card"><span class="tip-number">06</span><h3>Be kind and report abuse</h3><p>Think before commenting. Block and report harmful accounts, and ask a trusted person for help when needed.</p></article>
+        </div>
+      </div>
+    </section>
 
-<section class="final-cta">
-  <p class="eyebrow">REMEMBER</p>
-  <h2>Your digital footprint is part of your online identity.</h2>
-  <p>Pause. Think. Protect. Post responsibly.</p>
-  <a class="btn primary" href="#home">Back to top ↑</a>
-</section>
-</main>
+    <section class="section-wrap footprint-explainer">
+      <div><p class="eyebrow">KNOW WHAT YOU LEAVE BEHIND</p><h2 class="section-heading">What is a <span class="gradient-text">digital footprint?</span></h2><p>A digital footprint is the trail of information connected to your activity online. It can shape how others understand your interests, behaviour, and reputation.</p></div>
+      <div class="footprint-types">
+        <article><span class="type-icon">↗</span><div><h3>Active footprint</h3><p>Information you deliberately share, such as posts, comments, likes, photos, and profile details.</p></div></article>
+        <article><span class="type-icon">◎</span><div><h3>Passive footprint</h3><p>Information collected as you browse or use services, such as cookies, device details, or activity data.</p></div></article>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2026 SocialShield • Social Media Safety & Digital Footprint Awareness</p>
-  <p>College Awareness Project</p>
-</footer>
-<script src="script.js"></script>
+    <section class="content-section" id="survey">
+      <div class="section-wrap survey-layout">
+        <div><p class="eyebrow">AWARENESS SNAPSHOT</p><h2 class="section-heading">Know more. <span class="gradient-text">Choose better.</span></h2><p class="muted">The chart below is an illustrative sample for demonstration, not real survey findings. Replace these values with your own collected data before presenting it as research.</p><div class="survey-legend"><p><span class="legend-dot dot-blue"></span> Aware <b>72%</b></p><p><span class="legend-dot dot-purple"></span> Partly aware <b>20%</b></p><p><span class="legend-dot dot-cyan"></span> Not aware <b>8%</b></p></div></div>
+        <div class="chart-card"><div class="donut-chart"><div class="donut-center"><strong>100%</strong><small>Sample only</small></div></div><div class="chart-foot">Illustrative awareness split</div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap quiz-section" id="quiz">
+      <div class="quiz-heading"><p class="eyebrow">LEARN BY DOING</p><h2 class="section-heading">Quick safety <span class="gradient-text">challenge</span></h2><p class="muted">Answer five questions to check your understanding.</p></div>
+      <div class="quiz-card" id="quizCard">
+        <div class="quiz-top"><span id="questionCounter">QUESTION 1 OF 5</span><span id="scoreLabel">Score: 0</span></div>
+        <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+        <h3 id="questionText">What should you do before clicking an unexpected link?</h3>
+        <div class="answer-list" id="answerList"></div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+        <button class="btn primary" id="nextQuestion" disabled>Choose an answer</button>
+      </div>
+    </section>
+
+    <section class="content-section" id="checklist">
+      <div class="section-wrap checklist-layout">
+        <div><p class="eyebrow">A QUICK ACCOUNT CHECKUP</p><h2 class="section-heading">Your personal <span class="gradient-text">safety checklist</span></h2><p class="muted">Tick the habits you have already checked. This checklist runs in your browser and does not send your answers anywhere.</p><div class="check-progress"><div class="progress-track"><div class="progress-bar" id="checkProgress"></div></div><b id="checkCount">0 of 6 complete</b></div></div>
+        <div class="checklist-card" id="checklistItems">
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>My passwords are strong and unique</b><small>I don't reuse the same password everywhere.</small></span></label>
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>Two-step verification is enabled</b><small>I use an extra sign-in protection where possible.</small></span></label>
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>I've checked my privacy settings</b><small>I know who can view my posts and details.</small></span></label>
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>I avoid sharing sensitive information</b><small>I think before sharing personal details or location.</small></span></label>
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>I verify suspicious messages</b><small>I check the sender and link before responding.</small></span></label>
+          <label><input type="checkbox"><span class="fake-check">✓</span><span><b>I know how to block and report</b><small>I can get help if something feels unsafe.</small></span></label>
+          <div class="checklist-footer"><span id="checkMessage">Every safe habit counts.</span><button class="text-button" id="resetChecklist">Reset checklist ↺</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap final-cta"><div class="cta-shield">⬡</div><div><p class="eyebrow">YOUR DIGITAL FUTURE STARTS TODAY</p><h2>Think before you share.<br><span class="gradient-text">Protect what matters.</span></h2><p>Safer minds. Smarter choices. A stronger digital future.</p></div><a class="btn primary" href="#home">Back to top ↑</a></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">⬡</span><span>Social<span class="gradient-text">Shield</span></span></a><p>Social Media Safety &amp; Digital Footprint Awareness</p><div class="footer-links"><a href="#about">About</a><a href="#tools">Safety Tools</a><a href="#survey">Survey</a><a href="#quiz">Quiz</a><a href="#tips">Tips</a></div><small>Educational project • Stay curious. Stay cautious. Stay safe.</small></footer>
+  <script src="script.js"></script>
 </body>
 </html>
